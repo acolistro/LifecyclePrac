@@ -24,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ShowGuess.class);
+                intent.putExtra("guess", "Hello there");
                 startActivity(intent);
+
+                //alternative way to write:
+                //startActivity(new Intent(MainActivity.this, ShowGuess.class));
             }
         });
 
