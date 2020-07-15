@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LifecyclePrac</string>
+    <string name="enter_guess">Enter Guess Here</string>
+    <string name="guess_the_name_button">Guess the Name</string>
 </resources>
